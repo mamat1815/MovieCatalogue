@@ -1,0 +1,47 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MovieCatalogue" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_700</item>
+        <item name="colorPrimaryVariant">@color/gray_600</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_600</item>
+        <item name="colorSecondaryVariant">@color/blue_500</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/gray_700</item>
+    </style>
+
+    <!-- SearchView -->
+    <style name="searchView">
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:editTextColor">@color/white</item>
+    </style>
+
+    <style name="colorBg">
+        <item name="android:background">@color/gray_700</item>
+    </style>
+
+    <style name="bgCard">
+        <item name="android:background">@drawable/bg_list_dark</item>
+    </style>
+
+    <style name="colorPercentageText">
+        <item name="pcv_textColor">@color/white</item>
+    </style>
+
+    <style name="colorTabTitle">
+        <item name="tabIndicatorColor">@color/no_color</item>
+        <item name="tabTextColor">@color/white</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+    </style>
+
+    <style name="colorGradient">
+        <item name="android:src">@drawable/gradient_gray</item>
+    </style>
+
+</resources>
